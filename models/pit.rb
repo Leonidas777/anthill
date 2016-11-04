@@ -1,17 +1,14 @@
 class Pit
   MAX_NUMBER_OF_BRANCHES = 10
 
-  attr_reader :branches
+  attr_reader :branches, :size
 
   def initialize
     @branches = []
+    size = 100
   end
 
-  def add(branch=nil)
-    @branches.push(branch)
-  end
-
-  def remove(branch=nil)
-    @branches.delete(branch)
+  def add
+    @branches.push(Branch.new)
   end
 end
