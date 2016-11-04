@@ -1,2 +1,2 @@
-# anthill
-This app models a life of ants in an anthill
+# Anthill
+This app models a life of ants in an anthill.
