@@ -1,0 +1,2 @@
+class Beetle < Insect
+end

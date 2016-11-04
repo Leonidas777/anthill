@@ -1,0 +1,2 @@
+class Soldier < Ant
+end

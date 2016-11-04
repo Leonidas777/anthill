@@ -1,0 +1,2 @@
+class Caterpillar < Insect
+end
